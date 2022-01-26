@@ -3,6 +3,8 @@
  */
 package guru.springframework.spring5jokesappv2.services;
 
+import org.springframework.stereotype.Service;
+
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 
 /**
@@ -10,6 +12,7 @@ import guru.springframework.norris.chuck.ChuckNorrisQuotes;
  * @Since  25-Jan-2022
  *
  */
+@Service
 public class JokeServiceImpl implements JokeService {
 
 	private final ChuckNorrisQuotes chuckNorrisQuotes;
